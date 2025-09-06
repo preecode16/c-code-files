@@ -6,18 +6,18 @@ int main(){
     char c[10];
 
     printf("enter the name:");
-    scanf("%9s" ,&c);
+    scanf("%s" ,&c);
 
-    if(strcmp(c , "vani") == 0)
+    if((strcmp(c , "vani") == 0) || (strcmp(c , "naveen") == 0 ) )
 {
-    printf("you are awesome %9s\n", c);
+    printf("you are awesome %s", c);
 
 }
 
-else if(strcmp(c , "preetham") == 0)
+else if((strcmp(c , "preetham") == 0) || (strcmp(c , "nishanth" ) == 0))
 
 {
-    printf("let's do some calisthencis %9s" , c);
+    printf("let's do some calisthencis %s" , c);
 }
 else
 {
