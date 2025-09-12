@@ -7,6 +7,13 @@ int main(){
     printf("enter the size of pyramid: ");
     scanf("%d" , &n);
 
+    if(n < 0)
+    {
+        printf("enter the postive number");
+    }
+    return 1;
+    
+
     
 
 
