@@ -12,6 +12,9 @@ int main(){
         printf("enter the postive number");
     }
     return 1;
+
+
+    
     
 
     
