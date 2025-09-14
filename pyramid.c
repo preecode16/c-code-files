@@ -10,11 +10,11 @@ int main(){
     if(n < 0)
     {
         printf("enter the postive number");
-    }
-    return 1;
-
-
     
+        return 1;
+    }
+
+
     
 
     
