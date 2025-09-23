@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 
 int main(){
     int n;
@@ -20,24 +21,15 @@ int main(){
     }
     
 
-    int largest , smallest , seclargest , secsmallest;
+    
 
 
-    if(number[0] > number[1])
-    {
-        largest = number[0];
-        seclargest = number[1];
-        smallest = number[1];
-        secsmallest = number[0];
-    }
-    else{
-        largest = number[1];
-        seclargest = number[0];
-        smallest = number[0];
-        secsmallest = number[1];
-    }
+    int largest = INT_MIN;
+    int seclargest = INT_MIN;
+    int smallest = INT_MAX;
+    int secsmallest = INT_MAX;
 
-    for(int i = 2; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         if(number[i] > largest)
         {
