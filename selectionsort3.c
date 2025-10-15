@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int numbers[10] ={8 , 4 , 3 , 10 , 1 , 6 , 9 , 2 , 7 , 5};
+    int numbers[11] ={8 , 4 , 3 , 10 , 1 , 6 ,11 , 9 , 2 , 7 , 5} ;
 
     int n = 10;
 
