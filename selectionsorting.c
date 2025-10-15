@@ -6,19 +6,21 @@ int main(){
 
     for(int i = 0; i < n - 1; i++)
     {
-        for(int j = i + 1; i < n; j++)
+        int min_index = i;
+        for(int j = i + 1; j < n; j++)
         {
-            int min_index = i;
+            
             if(numbers[j] < numbers[min_index])
             {
                 min_index = j;
             }
+        }
 
                 int temp = numbers[i];
                 numbers[i] = numbers[min_index];
                 numbers[min_index] = temp;
             
-        }
+        
     }
 printf("the sorted elements are:");
 for(int i = 0; i < n; i++)
