@@ -16,10 +16,9 @@ if(age >= 60)
 {
     printf("the age of %s is %d\n" , name , age);
     printf("%s is a senior citizen\n" , name);
-}
-else{
+} 
     printf("the age of %s is %d\n" , name , age);
     printf("%s is not a senior citizen\n" , name);
 }
-}
+
     
