@@ -16,7 +16,7 @@ int main(){
                 numbers[j] = numbers[min_index];
                 numbers[min_index] = temp;
 
-            }
+            } 
             
           }
           
@@ -27,4 +27,4 @@ int main(){
         printf(" %d" , numbers[i]);
     }
     return 0;
-}w
+}
