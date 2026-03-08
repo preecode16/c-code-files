@@ -3,7 +3,7 @@
 int main(){
 
 
-    std::cout << "i like pizza";
+    std::cout << "i like burger";
     return 0;
 
 
